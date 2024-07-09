@@ -1,27 +1,19 @@
 #include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
 
 int main(void)
 {
-char c;
+int i;
 
-char d;
+for (i = 0; i < 26; i++)
+{
+putchar('a' + i);
+}
 
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar (c);
-c++;
+for (i = 0; i < 26; i++)
+{
+putchar('A' + i);
 }
-while
-(d <= 'z') {
-putchar (d);
-d++;
-}
-putchar ("\n");
+putchar('\n');
+
 return (0);
 }

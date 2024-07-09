@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdio.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
@@ -15,6 +14,6 @@ int main(void)
 		if (a < 9)
 			printf(", ");
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
